@@ -210,6 +210,7 @@ label::before {
     width: 16px;
     margin-left: -1.1em;
     margin-right: 1em;
+    transition: all ease 0.3s;
 }
 
 label:hover {
@@ -225,6 +226,7 @@ input:checked+label::before {
     color: var(--check);
     margin-left: -1.7em;
     margin-right: 1em;
+    transition: all ease 0.3s;
 }
 
 label:hover::before {
@@ -263,6 +265,7 @@ input:checked+label {
     font-weight: bold;
     padding: 8px;
     border-radius: 8px;
+    transition: all ease 0.3s;
 }
 
 #copyright {
