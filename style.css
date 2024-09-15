@@ -8,6 +8,7 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
     color: var(--color1);
+    font-size: 16px
 }
 
 body {
@@ -27,9 +28,8 @@ body {
     --color3: #7A284E;
     --bar: #E3DDD7;
     --check: #78A75A;
+    --gris: #ececec;
 }
-
-
 
 .box {
     background-color: var(--box);
@@ -227,9 +227,34 @@ input:checked+label::before {
     margin-right: 1em;
 }
 
+label:hover::before {
+    font-weight: bold;
+    content: "✓";
+    color: var(--check);
+    display: inline-block;
+    width: 16px;
+    margin-left: -1.7em;
+    margin-right: 1em;
+}
+
 label:hover::before,
 label:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
+}
+
+input:checked+label:hover::before,
+input:checked+label:hover {
+    transform: scale(1.05);
+}
+
+input:checked+label:hover::before {
+    font-weight: bold;
+    content: "•";
+    color: var(--color2);
+    display: inline-block;
+    width: 16px;
+    margin-left: -1.1em;
+    margin-right: 1em;
 }
 
 input:checked+label {
