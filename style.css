@@ -28,7 +28,6 @@ body {
     --color3: #7A284E;
     --bar: #E3DDD7;
     --check: #78A75A;
-    --gris: #ececec;
 }
 
 .box {
@@ -150,7 +149,8 @@ hr {
     margin: 40px;
 }
 
-th {
+th,
+td {
     font-weight: normal;
     text-align: center;
     padding: 16px 32px;
