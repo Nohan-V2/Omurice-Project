@@ -141,6 +141,7 @@ hr {
     width: 100%;
     margin-left: -14px;
     color: var(--bar);
+    border-color: var(--bar);
 }
 
 .saut {
