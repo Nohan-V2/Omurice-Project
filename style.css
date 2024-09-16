@@ -143,7 +143,7 @@ hr {
     color: var(--bar);
 }
 
-#saut {
+.saut {
     content: "";
     display: block;
     margin: 40px;
@@ -160,6 +160,16 @@ td {
 }
 
 p {
+    text-align: left;
+    font-size: 16px;
+    margin-left: -20px;
+    margin-bottom: 16px;
+    font-weight: normal;
+}
+
+caption {
+    width: auto;
+    text-align: left;
     font-size: 16px;
     margin-left: -20px;
     margin-bottom: 16px;
@@ -171,11 +181,11 @@ p {
     color: var(--color2);
 }
 
-#graisse {
+.graisse {
     border-bottom: none;
 }
 
-#lastnumber {
+.lastnumber {
     font-weight: bold;
     color: var(--color2);
     border-bottom: none;
@@ -268,14 +278,14 @@ input:checked+label {
     transition: all ease 0.3s;
 }
 
-#copyright {
+.copyright {
     text-align: center;
     color: var(--titre);
     font-size: 16px;
     font-weight: bold;
 }
 
-#facultatif {
+.facultatif {
     display: inline-block;
     color: var(--color2);
     font-weight: bold;
